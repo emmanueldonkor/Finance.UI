@@ -1,0 +1,11 @@
+/* ExpenseForm.css */
+
+@media (max-width: 768px) {
+    .expense-form .btn {
+      padding: 0.5rem 1rem; 
+      font-size: 0.8rem;
+      margin:7px;   
+    }
+  }
+  
+  

@@ -1,0 +1,20 @@
+
+  
+  /* Media query for small screens (around 768px) */
+  @media (max-width: 768px) {
+    .expense-description,
+    .expense-amount,
+    .expense-buttons {
+      font-size: 11px;
+    }
+  }
+  
+  /* Media query for medium screens (around 900px) */
+  @media (min-width: 769px) and (max-width: 900px) {
+    .expense-description,
+    .expense-amount,
+    .expense-buttons {
+      font-size: 16px;
+    }
+  }
+  

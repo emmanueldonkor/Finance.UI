@@ -1,0 +1,160 @@
+/*.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    border: 2px solid #3498db;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 700px;
+    width: 100%;
+    margin: '10px'
+  }
+  */
+/* App.css  align-items: flex-start;*/
+
+/* app.css */
+/*
+.app-container {
+  display: flex;
+  justify-content:center;
+  height: 100vh;
+  margin-top: 30px;
+  padding: 0 10px;
+  gap: 10px;
+}
+
+.form-container {
+  padding: 10px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height:auto
+}
+
+.form-container .d-flex {
+  flex-wrap: nowrap;
+}
+
+
+.statistics-container {
+  max-width: 400px;
+  padding: 10px;
+  width: 100%;
+}
+*/
+
+/* app.css */
+
+/*
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin-top: 45px;
+  padding: 0 10px;
+  gap: 10px;
+}
+
+.form-container {
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #3498db;
+  height: 550px;
+}
+
+.form-container h4 {
+  color: lightblue;
+  margin-bottom: 20px;
+}
+
+.form-container .d-flex {
+  flex-wrap: nowrap;
+}
+
+
+.statistics-container {
+  max-width: 400px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+*/
+
+/* Common styles for both small and medium screens */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 0 10px;
+}
+
+.form-container {
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #3498db;
+  height: 550px;
+}
+
+.form-container h4 {
+  color: lightblue;
+  margin-bottom: 20px;
+}
+
+.form-container .d-flex {
+  flex-wrap: nowrap;
+}
+
+/* Add specific styles for the StatisticsPage */
+.statistics-container {
+  max-width: 400px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+/* Media query for small screens (around 768px) */
+@media (max-width: 800px) {
+  .app-container {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+  @media (max-width: 400px) and (max-width: 600px) {
+    .app-container {
+      margin-top: 180px;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  /* Media query for tablets (around 900px) */
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .app-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .form-container,
+    .statistics-container {
+      max-width: 100%;
+    }
+  }
+

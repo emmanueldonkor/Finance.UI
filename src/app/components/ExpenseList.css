@@ -1,0 +1,53 @@
+/* PaginationStyles.css */
+
+/* PaginationStyles.css */
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .pagination-link,
+  .pagination-page {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination-link:hover,
+  .pagination-page:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .pagination-link:active,
+  .pagination-page:active {
+    background-color: #ddd;
+  }
+  
+  .pagination-break {
+    margin: 0 5px;
+  }
+  
+  .active {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  /* Adjust the size of next and previous buttons */
+  .pagination-link,
+  .pagination-page {
+    font-size: 12px; /* Change the font size to your preference */
+  }
+  
+  .pagination-link:active,
+  .pagination-page:active,
+  .active {
+    font-size: 12px; /* Change the font size to your preference */
+  }
+  
