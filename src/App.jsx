@@ -21,6 +21,8 @@ export default function App() {
   }, [dispatch]);
   return (
     <GoogleOAuthProvider
+    //NEVER STORE YOUR CLIENT ID IN PRODUCTION CODE. USE ENVIRONMENTAL VARIABLES OR ANOTHER SECURED WAY
+    //DID THIS  JUST FOR SOME SECURITY TESTING PURPOSE SO DON'T PUT YOUR  SECRETES IN PRODUCTION CODE
       clientId={
         '409424832131-r320u1i1t91brqhmuemnk02mtfbk6bn3.apps.googleusercontent.com'
       }
