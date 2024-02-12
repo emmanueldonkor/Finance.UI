@@ -1,8 +1,44 @@
-# React + Vite
+# Expense Tracker Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an app that helps me track my expenses
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Expense Tracker Website](#expense-tracker-website)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshots](#screenshots)
+    - [Links](#links)
+    - [Built with](#built-with)
+  - [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- create an account with username, email and password or create or login with google
+- create edit, delete and update expense
+- view statistics of his or her expenses
+
+### Screenshots
+
+![](./screenshot1.png)
+<![](./screenshot2.png)
+![](./screenshot3.png)
+
+### Links
+
+- Live Site URL: [Click Me !](https://fintrack-emmanueldonkor.vercel.app/)
+
+### Built with
+
+- React + vite + React-Boostrap + Redux-Toolkit
+- Asp.net core 7
+  
+
+## Author
+- LinkedIn- [EmmDonkor](https://www.linkedin.com/in/emmanueldonkor)
+

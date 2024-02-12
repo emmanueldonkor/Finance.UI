@@ -6,6 +6,7 @@ import SignInPage from './app/components/SignInPage';
 import {useSelector, useDispatch} from 'react-redux';
 import {userAuthenticated} from './app/authenticationSlice';
 import NavBar from './app/components/NavBar';
+import { CLIENT_ID } from './services/processFile';
 import {GoogleOAuthProvider} from '@react-oauth/google';
 import StatisticsPage from './app/components/StatisticsPage';
 
@@ -22,7 +23,7 @@ export default function App() {
   return (
     <GoogleOAuthProvider
       clientId={
-        '409424832131-r320u1i1t91brqhmuemnk02mtfbk6bn3.apps.googleusercontent.com'
+        CLIENT_ID
       }
     >
       <BrowserRouter>
