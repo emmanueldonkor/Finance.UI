@@ -12,7 +12,8 @@ import {
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL:`${import.meta.env.REACT_APP_BASE_URL}/Expenses`,
+  //baseURL:`${import.meta.env.REACT_APP_BASE_URL}/Expenses`,
+  baseURL: "https://fintrackapi.azurewebsites.net/Expenses",
 });
 
 axiosInstance.interceptors.request.use(config => {

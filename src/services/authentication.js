@@ -2,7 +2,8 @@ import axios from 'axios';
 import { userAuthenticated } from '../app/authenticationSlice';
 
 const axiosInstance  = axios.create({
-    baseURL:`${import.meta.env.REACT_APP_BASE_URL}/Auth`,
+   // baseURL:`${import.meta.env.REACT_APP_BASE_URL}/Auth`,
+   baseURL: "https://fintrackapi.azurewebsites.net/Auth",
    
 });
 

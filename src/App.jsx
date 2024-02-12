@@ -22,7 +22,7 @@ export default function App() {
   return (
     <GoogleOAuthProvider
       clientId={
-        import.meta.CLIENT_ID
+        '409424832131-r320u1i1t91brqhmuemnk02mtfbk6bn3.apps.googleusercontent.com'
       }
     >
       <BrowserRouter>
